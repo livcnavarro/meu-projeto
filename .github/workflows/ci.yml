@@ -1,7 +1,7 @@
 name: CI - Build e Teste da Imagem Docker
 on: [push]
 jobs:
-  build and test:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: 1. Baixar o código do repositório
